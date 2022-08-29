@@ -39,7 +39,8 @@ Users should be able to:
 
 ### Workflow
 - Setting up the workflow (Initialize git, setting up folders structure)
-- setting up the CSS Preflight (adding CSS normalize, google font, setting up webpack)
+- setting up the CSS Preflight (adding CSS normalize, google font)
+- Creating HTML skeleton based on `./assets/design`
 
 ### Built with
 
