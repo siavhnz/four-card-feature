@@ -164,13 +164,13 @@
 
 /* media break point*/
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 23em) {
         .card-feature__title{
             font-size: 1.125rem;
         }
 }
 
-@media screen and (min-width: 52em)
+@media screen and (min-width: 40em)
 {
     .card-feature__title {
         font-size: 2.26rem;
@@ -193,7 +193,8 @@
 
     .card-feature__item {
         padding: 2rem;
-        max-width: 19rem;
+        flex: 1;
+        min-width: 15rem;
     }
 
  
@@ -208,19 +209,25 @@
     }
 }
 
+@media screen and (min-width: 62em) { 
+    .card-feature__item {
+        min-width: 20rem;
+    }
+}
+
 @media screen and (min-width: 75em) {
 
-     .card-feature__items {
+    .card-feature__items {
         display: grid;
-        grid-template: repeat(4, 1fr) / repeat(3, 22rem);
+        grid-template: repeat(4, minmax(auto, 6.875rem)) / repeat(3, minmax(auto , 22rem));
         column-gap: 2rem;
         row-gap: 2rem;
         margin-top:3.65rem;
         margin-bottom:3.65rem;
     }
     
-    /* 
 
+    /* 
           2     3     4
     1-----|-----|-----| -> A = grid-area: 2 / 1 / 4 / 2;
              B             B = grid-area: 1 / 2 / 3 / 3;
@@ -232,11 +239,10 @@
              C
     5-----|-----|-----|   
     
-    
-    
     */
+
     .card-feature__item {
-        max-width:none;
+        min-width: auto;
     }
 
     .card-feature__item:first-child {
