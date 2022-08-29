@@ -38,6 +38,8 @@ Users should be able to:
 ## My process
 
 ### Workflow
+- Setting up the workflow (Initialize git, setting up folders structure)
+- setting up the CSS Preflight (adding CSS normalize, google font, setting up webpack)
 
 ### Built with
 
@@ -50,12 +52,12 @@ Users should be able to:
 ### What I learned
 
 
+
 ### Continued development
 
 
 ### Useful resources
 
-- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) - This helped me creating this README.md file :wink:
 
 
 ## Author
