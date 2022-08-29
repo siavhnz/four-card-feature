@@ -1,0 +1,171 @@
+:root {
+    /* colors*/
+    --color-body-bg: #fafafa;
+    --color-feature-bg: #fff;
+    --color-feature-title: #4c4e61;
+    --color-p: #a3a5ae;
+
+    /* features border colors */
+    --color-cyan: #45d3d3;
+    --color-red: #ea5353;
+    --color-orange: #fcaf4a;
+    --color-blue: #549ef2;
+
+    /* fonts */
+    --font-poppins: 'Poppins', sans-serif;
+
+    /* redius size */
+    --radius-size-sm: 8px;
+
+    /* feature box shadow */
+    --box-shadow:0px 10px 14px -8px rgba(163,165,174,0.42)
+}
+
+
+/*  global block and shared css */
+
+.screen {
+    background-color: var(--color-body-bg);
+    font-family: var(--font-poppins);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+
+.main {
+    padding:1rem;
+}
+
+
+.text-semibold {
+    font-weight: 600;
+}
+
+.text-regular {
+    font-weight: 400;
+}
+
+.text-extralight {
+    font-weight: 200;
+}
+
+.desc-color {
+    color: var(--color-p);
+}
+
+.title-color {
+    color: var(--color-feature-title);
+}
+
+.border-top {
+    border-top: 1px solid transparent;
+}
+
+.border-4x {
+    border-width: 4px;
+}
+
+.border-color-cyan {
+    border-color:var(--color-cyan);
+}
+
+.border-color-red {
+    border-color:var(--color-red);
+}
+
+.border-color-orange {
+    border-color:var(--color-orange);
+}
+
+.border-color-blue {
+    border-color:var(--color-blue);
+}
+
+
+ /* 
+    card feature classes structure.
+
+    this is a structure for card feature, some of
+    them may not be used.
+
+    card-feature [block]
+        card-feature__title [element]
+        card-feature__desc [element]
+        card-feature__items [element]
+            card-feature__items_item [block]
+                card-feature__item__title[element]
+                card-feature__item__desc[element]
+                card-feature__item__img[element]
+
+ */
+
+.card-feature {
+    margin: auto 1rem;
+}
+
+.card-feature__title {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.625rem;
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+    text-align: center;
+}
+
+.card-feature__desc {
+    padding: 0 0.5rem;
+    font-size: 0.94rem; /* ~ 15px */
+    text-align: center;
+    line-height:1.625;
+    padding-top:0.25rem;
+}
+
+.card-feature__items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    margin-top:4.75rem;
+}
+
+.card-feature__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    background-color: var(--color-feature-bg);
+    border-radius: var(--radius-size-sm);
+    padding: 1.625rem 1.72rem 1.7rem 1.7rem;
+    box-shadow: var(--box-shadow);
+}
+
+/* reset default margin */
+.card-feature__item > h2,
+.card-feature__item > p {
+    margin: 0;
+}
+
+.card-feature__item__title{
+    font-size: 1.25rem;
+}
+
+.card-feature__item__desc{
+    font-size: 0.825rem;
+    line-height: 1.7;
+    padding: 0 0.125rem;
+}
+
+.card-feature__item__icon {
+    align-self: flex-end;
+    width:3.5rem;
+    margin-top: 1.5rem;
+}
+
+
+/* media break point*/
+
+@media screen and (max-width: 374px) {
+        .card-feature__title{
+            font-size: 1.125rem;
+        }
+}
