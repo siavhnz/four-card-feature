@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./assets/images/screenshot.JPG)
 
 ### Links
 
 - Solution: [frontendmentor.io](https://your-solution-url.com)
 
-- Live Site: [github.io](https://your-live-site-url.com)
+- Live Site: [github.io](https://siavhnz.github.io/frontendmentor/11.four-card-feature/index.html)
 
 ## My process
 
@@ -42,6 +42,10 @@ Users should be able to:
 - setting up the CSS Preflight (adding CSS normalize, google font)
 - Creating HTML skeleton based on `./assets/design`
 - Working on mobile design (375 x 1360 px)
+- Working on Desktop design (1440 x 992 px)
+- Working on tablet breakpoints
+- Writting README.md
+- publish on github.io | github.com | frontendmentor.io
 
 ### Built with
 
@@ -53,13 +57,17 @@ Users should be able to:
 
 ### What I learned
 
+I read about [CSS Cube](https://cube.fyi/) and [BEM](http://getbem.com/) methodology then tried to
+make my CSS styles semantic to others.
 
 
 ### Continued development
 
 
 ### Useful resources
+- [CSS Cube](https://cube.fyi/)
 
+- [BEM](http://getbem.com/)
 
 
 ## Author
