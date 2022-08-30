@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution: [frontendmentor.io](https://your-solution-url.com)
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/four-card-feature-section-u45_a8yTW_)
 
 - Live Site: [github.io](https://siavhnz.github.io/frontendmentor/11.four-card-feature/index.html)
 
